@@ -55,7 +55,7 @@
 
         num1 = TextBox1.Text
         num2 = TextBox2.Text
-        res = num1 + num2
+        res = num1 / num2
 
         TextBox3.Text = res
 
@@ -76,5 +76,9 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         mult()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
