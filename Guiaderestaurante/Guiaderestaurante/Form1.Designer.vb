@@ -37,6 +37,7 @@ Partial Class Form1
         Me.BindingNavigatorDeleteItem = New System.Windows.Forms.ToolStripButton()
         Me.PilotosBindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
         Me.PilotosBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         CType(Me.PilotosBindingNavigator, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PilotosBindingNavigator.SuspendLayout()
         Me.SuspendLayout()
@@ -151,11 +152,20 @@ Partial Class Form1
         Me.PilotosBindingNavigator.TabIndex = 7
         Me.PilotosBindingNavigator.Text = "BindingNavigator1"
         '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(23, 49)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox1.TabIndex = 8
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(374, 261)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.PilotosBindingNavigator)
         Me.Name = "Form1"
         CType(Me.PilotosBindingNavigator, System.ComponentModel.ISupportInitialize).EndInit()
@@ -178,5 +188,6 @@ Partial Class Form1
     Friend WithEvents BindingNavigatorDeleteItem As System.Windows.Forms.ToolStripButton
     Friend WithEvents PilotosBindingNavigatorSaveItem As System.Windows.Forms.ToolStripButton
     Friend WithEvents PilotosBindingNavigator As System.Windows.Forms.BindingNavigator
+    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
 
 End Class
