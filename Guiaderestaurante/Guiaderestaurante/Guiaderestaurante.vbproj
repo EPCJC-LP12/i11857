@@ -133,6 +133,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Critica.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Database1.sdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
